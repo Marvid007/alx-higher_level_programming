@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # 100-print_tebahpla.py
 
-    """Print the alphabeth in reverse order alternating upper- and lower-case."""
+    """Print the alphabeth in reverse order alternating upper- and lower-case.
+"""
     i = 0
     for c in range(ord('Z'), ord('a') - 1, -1):
         print("{}".format(chr(c - i)), end="")
